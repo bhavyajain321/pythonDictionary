@@ -1,0 +1,190 @@
+  PowerShell Obfuscated Command Execution
+  PowerShell Downgrade Attack
+  PowerShell Script Block Logging Disabled
+  Suspicious MSBuild Execution
+  Regsvr32 Scriptlet Execution
+  Mshta Remote Script Execution
+  Rundll32 with Remote Payload
+  Office Macro Child Process Execution
+  Excel Spawning PowerShell
+  Word Spawning Command Prompt
+  Suspicious Use of Bitsadmin
+  Use of WMIC for Remote Execution
+  Unauthorized WMI Remote Command Execution
+  Creation of Hidden Scheduled Task
+  Startup Folder Persistence
+  Registry Image File Execution Options Abuse
+  COM Object Hijacking
+  AppInit DLLs Persistence
+  Winlogon Helper DLL Persistence
+  Boot Configuration Data Modification
+  Tampering with Windows Firewall Rules
+  Suspicious LSASS Handle Duplication
+  Credential Dumping via MiniDump
+  Kerberoasting Activity Detected
+  AS-REP Roasting Attack
+  Abuse of SeDebugPrivilege
+  Suspicious NTLM Authentication Pattern
+  Abnormal Domain Trust Enumeration
+  BloodHound Data Collection Activity
+  SharpHound Execution Detected
+  Excessive LDAP Queries
+  Suspicious Net User Enumeration
+  Abuse of Net Group Commands
+  Lateral Movement via RDP Admin Share
+  Suspicious SMB Session Creation
+  Abnormal Remote Service Creation
+  PsExec Service Cleanup Detected
+  DC Sync Attack Indicator
+  Golden Ticket Usage Indicator
+  Silver Ticket Usage Indicator
+  Suspicious Group Policy Modification
+  Unauthorized SYSVOL Modification
+  Suspicious Certificate Enrollment
+  Active Directory ACL Abuse
+  Unusual Domain Controller Authentication
+  Domain Controller Backup Access
+  Unauthorized Domain Controller Promotion Attempt
+  Unexpected NTDS Snapshot Creation
+
+  Suspicious Bash History Tampering
+  Unusual Shell Spawned by SSHD
+  Suspicious Use of SCP for Data Transfer
+  Abuse of Rsync for Data Exfiltration
+  Unexpected Use of FTP Service
+  Unusual NFS Mount Operation
+  Cron Job Executing Remote Payload
+  User-Level Cron Persistence
+  Modification of /etc/rc.local
+  Unexpected Init Script Creation
+  Binary Dropped in /usr/local/bin
+  Suspicious ELF Binary Execution
+  Stripped Binary Execution Detected
+  Execution of Statically Linked Binary
+  Unusual Use of LD_AUDIT
+  Abuse of ptrace for Process Injection
+  GDB Attached to Privileged Process
+  Unexpected Core Dump Generation
+  System Call Tracing Enabled
+  Kernel Debug Mode Enabled
+  Hidden Network Interface Creation
+  Unexpected IP Table Rule Modification
+  Firewall Disabled on Linux Host
+  SELinux Policy Modified
+  SELinux Set to Permissive Mode
+  Unexpected User Namespace Creation
+  Unusual Mount of Proc Filesystem
+  Docker Socket Abuse
+  Privileged Container Execution
+  Container Image Pulled from Untrusted Registry
+  Kubernetes Service Account Token Abuse
+  Unexpected Kubeconfig Access
+  Malicious Init Container Execution
+  Linux Agent Tampering Attempt
+
+  Suspicious DNS Tunneling Activity
+  Encrypted Traffic to Rare Domain
+  Outbound Traffic to Bulletproof Hosting
+  TLS Certificate with Low Reputation
+  JA3 Fingerprint Anomaly Detected
+  HTTP User-Agent Anomaly
+  Suspicious HTTP POST Beaconing
+  Outbound Traffic on Non-Standard Ports
+  Long-Lived TCP Session Detected
+  Unexpected East-West Traffic Pattern
+  Internal Host Port Sweep
+  Lateral Movement via RPC Detected
+  SMB Session from Non-Domain Host
+  Excessive Failed Internal Connections
+  Network Device Configuration Change
+  Firewall Policy Modified Outside Change Window
+  Prisma Access Policy Drift Detected
+  SD-WAN Path Manipulation Detected
+  SD-WAN Tunnel Flap Anomaly
+  Unexpected IPS Signature Disablement
+  Zone Protection Profile Disabled
+  Threat Log Flood Detected
+  Repeated URL Filtering Bypass Attempts
+  Suspicious SSL Decryption Bypass
+  DNS Sinkhole Bypass Attempt
+
+  AWS Console Login from Untrusted ASN
+  AWS Console Login from New Device
+  AWS API Calls Outside Business Hours
+  IAM Password Policy Weakened
+  IAM MFA Device Deleted
+  IAM Role Deleted
+  IAM User Password Reset
+  IAM User Added to Privileged Group
+  Unusual STS AssumeRole Frequency
+  Temporary Credentials Used for Long Duration
+  Lambda Function Invoking External IP
+  Lambda Environment Variable Modified
+  EC2 User Data Script Abuse
+  EC2 Instance Profile Attached
+  Unexpected AMI Creation
+  AMI Shared with External Account
+  S3 Bucket Policy Modified
+  S3 Object Versioning Disabled
+  S3 Replication Rule Modified
+  Unusual S3 ListObjects Activity
+  RDS Instance Publicly Accessible
+  RDS Snapshot Copied Cross-Region
+  EBS Volume Attached to New Instance
+  EKS Cluster Config Modified
+  CloudFormation Stack Drift Detected
+  CloudFormation Stack Deleted
+  Route53 DNS Record Modified
+  VPC Route Table Modified
+  NACL Opened Broadly
+  Direct Connect Configuration Change
+
+  WAF Bypass via Encoding Techniques
+  Repeated 403 Followed by 200 Response
+  API Enumeration Detected
+  Mass API Parameter Tampering
+  Broken Object Level Authorization Abuse
+  Broken Function Level Authorization Abuse
+  Excessive GraphQL Query Depth
+  GraphQL Batch Query Abuse
+  Web Cache Poisoning Attempt
+  HTTP Host Header Injection
+  Referrer Header Manipulation
+  CORS Misconfiguration Abuse
+  OAuth Token Reuse Detected
+  OAuth Token Scope Escalation
+  API Token Used After Revocation
+  Web Session Hijacking Indicator
+  Session Token Reuse Across IPs
+  Abnormal Logout Suppression
+  Multiple Password Reset Requests
+  Sensitive Endpoint Access Without Auth
+
+  Admin Login Outside Business Hours
+  Admin Login from TOR Network
+  Multiple MFA Devices Added
+  MFA Device Removed Without Approval
+  Identity Used from VPN and Direct Internet
+  User Accessing Multiple Restricted Systems
+  Bulk Group Membership Changes
+  Identity Used Across Multiple OS Types
+  Identity Used from Multiple Branches
+  Sudden Increase in Privileged Actions
+  User Access Pattern Deviation
+  High-Risk User Behavioral Score
+  Identity Risk Score Spike
+  Identity Compromise Followed by EDR Alert
+  Identity Compromise Followed by Network Alert
+  Identity Compromise Followed by Cloud Change
+  Identity Compromise Followed by Data Access
+  Impossible Travel with Successful MFA
+  Concurrent VPN Sessions Detected
+  Service Account Password Never Rotated
+  Service Account Used Interactively
+  API Token Used by Multiple Identities
+  User Downloading Data Before Resignation
+  User Access After HR Termination Event
+  Privileged Access Without Ticket
+  Privileged Access Outside Change Window
+  Mass Deprovisioning Activity
+  Identity Lifecycle Policy Violation
