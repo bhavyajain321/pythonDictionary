@@ -1,0 +1,98 @@
+  PowerShell Encoded Command Execution
+  PowerShell Download Cradle Execution
+  Suspicious LOLBin Execution (certutil)
+  Suspicious LOLBin Execution (mshta)
+  Suspicious LOLBin Execution (rundll32)
+  LSASS Memory Access Attempt
+  Credential Dumping via ProcDump
+  SAM Registry Hive Access
+  NTDS.dit Access Attempt
+  Creation of New Local Administrator Account
+  Suspicious Scheduled Task Creation
+  Registry Run Key Persistence
+  WMI Event Subscription Persistence
+  Service Creation for Persistence
+  Windows Defender Tampering
+  AMSI Bypass Attempt
+  Suspicious Parent-Child Process Chain
+  Execution from Temp Directory
+  Process Injection Detected
+  Credential Theft Tool Execution
+  RDP Login from Unusual Source
+  Lateral Movement via SMB
+  Pass-the-Hash Indicator
+  Pass-the-Ticket Indicator
+  Network Discovery Command Execution
+  Archive Creation Before Exfiltration
+  Shadow Copy Deletion
+  Ransomware Behavior Detected
+  Endpoint Isolation Bypass Attempt
+  SentinelOne Agent Tampering (Windows)
+  Suspicious Use of PsExec
+  DCOM-Based Lateral Movement
+  Unauthorized WinRM Execution
+  Abnormal Service Binary Path Change
+  Windows Event Log Service Stopped
+  Linux Reverse Shell Execution
+  Netcat Reverse Shell
+  Python Reverse Shell Execution
+  Curl Download and Execute
+  Wget Download and Execute
+  Unauthorized Sudo Command Execution
+  Sudoers File Modification
+  Setuid Binary Creation
+  Unauthorized Cron Job Creation
+  Systemd Service Persistence
+  SSH Authorized Keys Modification
+  Root SSH Login Detected
+  Access to /etc/shadow
+  History File Deletion
+  LD_PRELOAD Abuse
+  Execution from /tmp Directory
+  Auditd Service Stopped
+  Fileless Execution via Memfd
+  PAM Configuration Modification
+  Kernel Module Loaded
+  SSH Brute-Force Followed by Success
+  Unexpected Outbound Connection from Server
+  Linux Binary Masquerading
+  Data Staging in /dev or /var/tmp
+  Container Escape Attempt
+  Suspicious Outbound C2 Connection
+  Beaconing Network Pattern Detected
+  DNS Query to Newly Registered Domain
+  Security Tool Tampering
+  Unauthorized Scheduled Task or Job
+  Data Staging via Archive Creation
+  Large Outbound Data Transfer
+  Exfiltration via Cloud Sync Tools
+  Suspicious Tunneling Tool Execution
+  Log Deletion Attempt
+  Process Executed from Memory
+  Unexpected Inbound Network Listener
+  System Binary Modification
+  Dual-Use Remote Tool Execution
+  Environment Variable Execution Hijack
+  Suspicious Compression with Password
+  Endpoint Recon Tool Execution
+  Multi-Stage Execution Chain Detected
+  Firewall Blocked C2 Traffic Detected
+  High Severity Exploit Attempt
+  HTTP/HTTPS Command and Control Detection
+  DNS-Based Data Exfiltration
+  Port Scanning Detection
+  Unusual Geo Outbound Connection
+  Large Outbound Traffic Spike
+  VPN Gateway Brute Force Attempt
+  Internal Lateral Movement Traffic Spike
+  Malware Detected via WildFire
+  AWS Root Account Login
+  Root Login Without MFA
+  IAM Access Key Created
+  IAM Admin Policy Attached
+  CloudTrail Logging Disabled
+  GuardDuty Disabled
+  Security Group Opened to World
+  SQL Injection Attempt
+  Web Shell Upload Attempt
+  Web Attack Followed by Backend Command Execution
